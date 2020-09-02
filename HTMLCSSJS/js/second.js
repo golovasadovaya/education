@@ -29,3 +29,9 @@ document.write(mas[1][0]);
 document.write('           ');
 var mas1={js:['jQuery','Angular'],php:'hello',css:'world'};
 document.write(mas1['js'][0]);
+
+
+document.write('                ');
+var lang={ru:'ru',eng:'eng'};
+var day={1:'пн',2:'вт',3:'ср',4:'чт',5:'пт',6:'сб', 7:'вс'};
+document.write(lang['ru']+day['3']);
