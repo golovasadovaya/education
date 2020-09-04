@@ -56,8 +56,8 @@ var qwe='123';
 
 
 var num=String(Math.floor(Math.random()*(999-100))+100);
-
+document.write('chislo');
 document.write(num);
-
-document.write();
+document.write(' 1 cifra');
+document.write(parseInt(num[0])+parseInt(num[1])+parseInt(num[2]));
 
